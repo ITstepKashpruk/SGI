@@ -10,17 +10,18 @@
       padding: 0;
     }
     #tooltip {
-      position: absolute;
-      background: white;
-      padding: 6px 12px;
-      border-radius: 6px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
-      display: none;
-      font-size: 14px;
-      font-family: sans-serif;
-      pointer-events: none;
-      z-index: 9999;
-    }
+  position: absolute;
+  background: rgba(0, 0, 0, 0.42); /* чорний фон з прозорістю 42% */
+  color: white;                    /* білий текст */
+  padding: 5px 20px;               /* 5px зверху/знизу, 20px зліва/справа */
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  pointer-events: none;
+  display: none;
+  z-index: 9999;
+  white-space: nowrap;
+}
+
     svg {
       width: 100%;
       height: auto;
